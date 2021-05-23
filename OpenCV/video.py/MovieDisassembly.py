@@ -2,7 +2,7 @@ import cv2
 
 video_path = "C:\\Users\\tuzuk\\Desktop\\AboutCV\\WebCamera\\test.mp4"
 cap = cv2.VideoCapture(video_path)
-dir = "C:\\Users\\tuzuk\\Desktop\\AboutCV\\movie_disassenbled"
+dir = "C:\\Users\\tuzuk\\Desktop\\AboutCV\\movie_disassenbled" #出力先
 
 num = 0
 while(cap.isOpened()):
